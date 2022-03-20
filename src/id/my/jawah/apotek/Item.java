@@ -106,4 +106,8 @@ public class Item {
         setStokItem(stokUpdate);
     }
     
+    public void tambahStock(Short kurangiStock){
+        Short stokUpdate = (short) (getStokItem() + kurangiStock);
+        setStokItem(stokUpdate);
+    }
 }
